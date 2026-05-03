@@ -1,0 +1,86 @@
+{
+  "par_meteo": {
+    "pluie": [
+      {
+        "nom": "BU Mont Houy",
+        "type": "étude",
+        "description": "Espace calme avec wifi gratuit pour travailler",
+        "cout": 0
+      },
+      {
+        "nom": "UGC Ciné Cité",
+        "type": "cinéma",
+        "description": "Tarif étudiant à 7.50€",
+        "cout": 7.50
+      },
+      {
+        "nom": "Salle de sport SUAPS",
+        "type": "sport",
+        "description": "Accès gratuit avec carte étudiante",
+        "cout": 0
+      },
+      {
+        "nom": "Centre commercial Place d'Armes",
+        "type": "shopping",
+        "description": "Boutiques et restaurants",
+        "cout": 0
+      },
+      {
+        "nom": "Musée des Beaux-Arts",
+        "type": "culture",
+        "description": "Gratuit pour les étudiants",
+        "cout": 0
+      }
+    ],
+    "beau_temps": [
+      {
+        "nom": "Parc de la Rhônelle",
+        "type": "détente",
+        "description": "Idéal pour pique-nique ou révisions en plein air",
+        "cout": 0
+      },
+      {
+        "nom": "Terrains de sport campus",
+        "type": "sport",
+        "description": "Foot, basket, tennis disponibles",
+        "cout": 0
+      },
+      {
+        "nom": "Base de loisirs de Chabaud-Latour",
+        "type": "nature",
+        "description": "Lac et espaces verts à 15min",
+        "cout": 0
+      },
+      {
+        "nom": "Terrasse Place d'Armes",
+        "type": "détente",
+        "description": "Cafés et bars avec terrasse",
+        "cout": 5.00
+      }
+    ]
+  },
+  "par_jour": {
+    "lundi": ["BU", "Sport SUAPS", "Cafétéria INSA"],
+    "mardi": ["BU", "Sport", "Associations"],
+    "mercredi": ["Sport SUAPS", "BU", "Ciné tarif réduit"],
+    "jeudi": ["Soirées BDE", "Bars centre-ville", "Sport"],
+    "vendredi": ["Soirées", "Bars", "Restaurants"],
+    "samedi": ["Shopping", "Sport", "Sorties", "Ciné"],
+    "dimanche": ["Repos", "BU (matin)", "Parc", "Netflix"]
+  },
+  "par_budget": {
+    "gratuit": [
+      "BU", "Parc de la Rhônelle", "Sport SUAPS", 
+      "Musée (étudiants)", "Événements BDE"
+    ],
+    "moins_5_euros": [
+      "RU Mont Houy", "Café", "Ciné (mardi)"
+    ],
+    "5_10_euros": [
+      "Kebab", "Cinéma", "Fast-food", "Bar (1-2 verres)"
+    ],
+    "plus_10_euros": [
+      "Restaurant", "Bowling", "Soirée club"
+    ]
+  }
+}

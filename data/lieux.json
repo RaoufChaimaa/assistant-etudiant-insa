@@ -1,0 +1,179 @@
+{
+  "restaurants": [
+    {
+      "id": "ru_mont_houy",
+      "nom": "RU Mont Houy",
+      "type": "restaurant universitaire",
+      "budget": "très économique",
+      "prix_moyen": 3.30,
+      "localisation": "Campus Mont Houy",
+      "horaires": {
+        "lundi": "11:30-13:30",
+        "mardi": "11:30-13:30",
+        "mercredi": "11:30-13:30",
+        "jeudi": "11:30-13:30",
+        "vendredi": "11:30-13:30",
+        "samedi": "fermé",
+        "dimanche": "fermé"
+      },
+      "specialites": ["plat du jour", "végétarien", "halal"],
+      "note": 3.5,
+      "adapte_pluie": true
+    },
+    {
+      "id": "cafet_insa",
+      "nom": "Cafétéria INSA",
+      "type": "cafétéria",
+      "budget": "économique",
+      "prix_moyen": 5.00,
+      "localisation": "INSA Hauts-de-France",
+      "horaires": {
+        "lundi": "08:00-17:00",
+        "mardi": "08:00-17:00",
+        "mercredi": "08:00-17:00",
+        "jeudi": "08:00-17:00",
+        "vendredi": "08:00-16:00",
+        "samedi": "fermé",
+        "dimanche": "fermé"
+      },
+      "specialites": ["sandwichs", "café", "viennoiseries"],
+      "note": 4.0,
+      "adapte_pluie": true
+    },
+    {
+      "id": "istanbul_kebab",
+      "nom": "Istanbul Kebab",
+      "type": "kebab",
+      "budget": "économique",
+      "prix_moyen": 7.00,
+      "localisation": "Centre-ville",
+      "horaires": {
+        "lundi": "11:00-22:00",
+        "mardi": "11:00-22:00",
+        "mercredi": "11:00-22:00",
+        "jeudi": "11:00-22:00",
+        "vendredi": "11:00-23:00",
+        "samedi": "11:00-23:00",
+        "dimanche": "12:00-22:00"
+      },
+      "specialites": ["kebab", "tacos", "durum"],
+      "note": 4.2,
+      "adapte_pluie": true
+    },
+    {
+      "id": "mcdo_valenciennes",
+      "nom": "McDonald's",
+      "type": "fast-food",
+      "budget": "économique",
+      "prix_moyen": 8.00,
+      "localisation": "Centre commercial",
+      "horaires": {
+        "tous_jours": "08:00-00:00"
+      },
+      "specialites": ["burger", "menu étudiant"],
+      "note": 3.8,
+      "adapte_pluie": true
+    },
+    {
+      "id": "le_provencal",
+      "nom": "Le Provençal",
+      "type": "restaurant",
+      "budget": "modéré",
+      "prix_moyen": 15.00,
+      "localisation": "Place d'Armes",
+      "horaires": {
+        "lundi": "fermé",
+        "mardi": "12:00-14:00, 19:00-22:00",
+        "mercredi": "12:00-14:00, 19:00-22:00",
+        "jeudi": "12:00-14:00, 19:00-22:00",
+        "vendredi": "12:00-14:00, 19:00-22:30",
+        "samedi": "12:00-14:30, 19:00-22:30",
+        "dimanche": "12:00-14:30"
+      },
+      "specialites": ["cuisine française", "formule midi"],
+      "note": 4.5,
+      "adapte_pluie": true
+    }
+  ],
+  "cafes": [
+    {
+      "id": "bu_valenciennes",
+      "nom": "BU Mont Houy",
+      "type": "bibliothèque",
+      "localisation": "Campus Mont Houy",
+      "wifi": true,
+      "prises": true,
+      "horaires": {
+        "lundi": "08:00-20:00",
+        "mardi": "08:00-20:00",
+        "mercredi": "08:00-20:00",
+        "jeudi": "08:00-20:00",
+        "vendredi": "08:00-18:00",
+        "samedi": "09:00-12:00",
+        "dimanche": "fermé"
+      },
+      "calme": true,
+      "adapte_pluie": true
+    },
+    {
+      "id": "starbucks_centre",
+      "nom": "Starbucks",
+      "type": "café",
+      "localisation": "Centre commercial Place d'Armes",
+      "wifi": true,
+      "prises": true,
+      "prix_cafe": 4.50,
+      "horaires": {
+        "lundi": "09:00-19:00",
+        "mardi": "09:00-19:00",
+        "mercredi": "09:00-19:00",
+        "jeudi": "09:00-19:00",
+        "vendredi": "09:00-19:30",
+        "samedi": "09:00-19:30",
+        "dimanche": "10:00-18:00"
+      },
+      "adapte_pluie": true
+    }
+  ],
+  "sorties": [
+    {
+      "id": "le_carillon",
+      "nom": "Le Carillon",
+      "type": "bar",
+      "localisation": "Centre-ville",
+      "prix_moyen": 5.00,
+      "ambiance": "festive",
+      "horaires": {
+        "jeudi": "18:00-01:00",
+        "vendredi": "18:00-02:00",
+        "samedi": "18:00-02:00"
+      },
+      "evenements": ["soirées étudiantes", "concert"],
+      "adapte_pluie": true
+    },
+    {
+      "id": "ugc_valenciennes",
+      "nom": "UGC Ciné Cité",
+      "type": "cinéma",
+      "localisation": "Centre commercial",
+      "prix_moyen": 10.50,
+      "prix_etudiant": 7.50,
+      "horaires": {
+        "tous_jours": "10:00-23:00"
+      },
+      "adapte_pluie": true
+    },
+    {
+      "id": "parc_rhonelle",
+      "nom": "Parc de la Rhônelle",
+      "type": "parc",
+      "localisation": "Centre-ville",
+      "prix_moyen": 0,
+      "horaires": {
+        "tous_jours": "07:00-20:00"
+      },
+      "activites": ["promenade", "jogging", "pique-nique"],
+      "adapte_pluie": false
+    }
+  ]
+}

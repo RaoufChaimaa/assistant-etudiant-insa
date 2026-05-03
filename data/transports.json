@@ -1,0 +1,118 @@
+{
+  "lignes": [
+    {
+      "type": "tramway",
+      "numero": "T1",
+      "nom": "Tramway de Valenciennes",
+      "operateur": "Transvilles",
+      "arrets_principaux": [
+        "Gare SNCF",
+        "Hôtel de Ville", 
+        "Place d'Armes",
+        "Université",
+        "Mont Houy"
+      ],
+      "frequence_semaine": "8-10 min",
+      "frequence_weekend": "15 min",
+      "premier_depart": "05:30",
+      "dernier_depart": "23:00",
+      "tarif": 1.60,
+      "tarif_10_voyages": 12.00
+    },
+    {
+      "type": "bus",
+      "numero": "3",
+      "nom": "Ligne Campus",
+      "arrets_principaux": [
+        "Gare",
+        "Centre-ville",
+        "INSA",
+        "UPHF Mont Houy"
+      ],
+      "frequence_semaine": "15-20 min",
+      "premier_depart": "06:30",
+      "dernier_depart": "20:00",
+      "tarif": 1.60
+    },
+    {
+      "type": "TER",
+      "numero": "TER HdF",
+      "nom": "TER Hauts-de-France",
+      "destinations": ["Lille (45min)", "Paris (1h45 TGV)", "Cambrai (20min)"],
+      "note": "Tarif réduit avec carte étudiant"
+    }
+  ],
+  "itineraires": [
+    {
+      "de": "gare",
+      "vers": "insa",
+      "options": [
+        {
+          "mode": "tramway",
+          "ligne": "T1",
+          "duree": "20 min",
+          "cout": 1.60,
+          "description": "Direct, le plus pratique"
+        },
+        {
+          "mode": "bus",
+          "ligne": "3",
+          "duree": "25 min",
+          "cout": 1.60
+        },
+        {
+          "mode": "vélo",
+          "duree": "25 min",
+          "cout": 0,
+          "description": "V'Lille disponible"
+        }
+      ]
+    },
+    {
+      "de": "centre-ville",
+      "vers": "insa",
+      "options": [
+        {
+          "mode": "tramway",
+          "ligne": "T1",
+          "duree": "15 min",
+          "cout": 1.60
+        },
+        {
+          "mode": "vélo",
+          "duree": "18 min",
+          "cout": 0
+        },
+        {
+          "mode": "marche",
+          "duree": "40 min",
+          "cout": 0
+        }
+      ]
+    },
+    {
+      "de": "gare",
+      "vers": "centre-ville",
+      "options": [
+        {
+          "mode": "tramway",
+          "ligne": "T1",
+          "duree": "5 min",
+          "cout": 1.60
+        },
+        {
+          "mode": "marche",
+          "duree": "10 min",
+          "cout": 0
+        }
+      ]
+    }
+  ],
+  "velo": {
+    "service": "V'Lille",
+    "stations_campus": ["INSA", "BU", "Resto U"],
+    "tarif_30min": 0,
+    "tarif_heure": 1.00,
+    "abonnement_etudiant_annuel": 18.00
+  }
+}
