@@ -58,8 +58,8 @@ bash
 cp .env.example .env
 Éditez .env et ajoutez vos clés:
 
-Google Gemini (gratuit): https://makersuite.google.com/app/apikey
-OpenWeather (gratuit): https://openweathermap.org/api
+Groq : https://console.groq.com/keys
+OpenWeather : https://openweathermap.org/api
 5. Lancer l'application
 bash
 # Interface web (recommandé)
@@ -67,10 +67,9 @@ python run.py
 
 # OU mode console
 python main.py
-📸 Screenshots
 
 
-🛠️ Technologies
+## 🛠️ Technologies
 LLM:  Groq
 Framework: LangChain
 Frontend: Streamlit
