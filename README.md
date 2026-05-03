@@ -71,7 +71,7 @@ python main.py
 
 
 🛠️ Technologies
-LLM: Google Gemini (gratuit) / Groq
+LLM:  Groq
 Framework: LangChain
 Frontend: Streamlit
 APIs: OpenWeatherMap
@@ -86,4 +86,3 @@ Raouf Chaimaa
 
 INSA Hauts-de-France
 📄 License
-MIT License - voir LICENSE
